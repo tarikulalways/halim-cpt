@@ -23,7 +23,8 @@ if(!function_exists('halim_custom_post')){
                 'add_new_item' => esc_html__('Add new sliders', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'editor', 'custom-fields', 'thumbnail')
+            'supports' => array('title', 'editor', 'custom-fields', 'thumbnail'), 
+            'menu_icon' => 'dashicons-slides'
         ));
 
         // service cutom post type
@@ -35,7 +36,8 @@ if(!function_exists('halim_custom_post')){
                 'add_new_item' => esc_html__('Add new service items', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'editor', 'cutom-fields')
+            'supports' => array('title', 'editor', 'cutom-fields'),
+            'menu_icon' => 'dashicons-sos'
         ));
 
         // counter custom post
@@ -47,7 +49,8 @@ if(!function_exists('halim_custom_post')){
                 'add_new_item' => esc_html__('Add new items', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'custom-fields')
+            'supports' => array('title', 'custom-fields'),
+            'menu_icon' => 'dashicons-image-filter'
         ));
 
         // team custom post type
@@ -60,7 +63,8 @@ if(!function_exists('halim_custom_post')){
                 'set_featured_image' => esc_html__('Set team profile', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'custom-fields', 'thumbnail')
+            'supports' => array('title', 'custom-fields', 'thumbnail'),
+            'menu_icon' => 'dashicons-groups'
         ));
 
         // testimonial custom post type
@@ -73,7 +77,8 @@ if(!function_exists('halim_custom_post')){
                 'set_featured_image' => esc_html__('Set Testimonials profile', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'editor', 'custom-fields', 'thumbnail')
+            'supports' => array('title', 'editor', 'custom-fields', 'thumbnail'),
+            'menu_icon' => 'dashicons-testimonial'
         ));
 
         // gallery post type
@@ -85,7 +90,8 @@ if(!function_exists('halim_custom_post')){
                 'add_new_item' => esc_html__('Add new Gallery items', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'custom-fields')
+            'supports' => array('title', 'custom-fields'),
+            'menu_icon' => 'dashicons-format-gallery'
         ));
 
         // protfolio post type
@@ -99,7 +105,8 @@ if(!function_exists('halim_custom_post')){
                 'set_featured_image' => esc_html__('set protfolio image', 'halim')
             ),
             'public' => true,
-            'supports' => array('title', 'custom-fields', 'thumbnail')
+            'supports' => array('title', 'custom-fields', 'thumbnail'),
+            'menu_icon' => 'dashicons-portfolio'
         ));
 
         // register taxonomy
